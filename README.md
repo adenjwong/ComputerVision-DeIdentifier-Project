@@ -51,6 +51,8 @@ python deidentify_faces.py -i partialface.jpg -o blurpartialface.jpg --cpu --pre
 `output.jpg` → blurred faces  
 `output_preview.png` → side-by-side comparison  
 
+![black-box multiple faces test](Test/boxmultiface_preview.png)
+
 ### anonymize all faces in a video
 ```bash
 Copy code
