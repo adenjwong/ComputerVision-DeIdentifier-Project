@@ -51,7 +51,7 @@ python deidentify_faces.py -i partialface.jpg -o blurpartialface.jpg --cpu --pre
 `output.jpg` → blurred faces  
 `output_preview.png` → side-by-side comparison  
 
-![black-box multiple faces test](Test/boxmultiface_preview.png)
+![black-box multiple faces image test](Test/boxmultiface_preview.png)
 
 ### anonymize all faces in a video
 ```bash
@@ -63,6 +63,8 @@ python deidentify_faces.py -i inputvideo.mp4 -o boxedvideo.mp4 --cpu \
 **Example Output:**  
 `output.mp4` → redacted video  
 `output_faces.json` → frame-by-frame face bounding boxes  
+
+![black-box multiple faces video example](Test/boxedvideo_preview.gif)
 
 ## Command-Line Arguments
 
